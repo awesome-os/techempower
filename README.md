@@ -59,3 +59,10 @@ docker run -p 5432:5432 -d --rm --name tfb-database --network tfb techempower/tf
 ```bash
 docker run -p 8080:8080 -d --rm --name tfb-server --network tfb techempower:latest
 ```
+
+## Quick Start (Windows / Linux / macOS)
+
+```sh
+# Clone & enter repository (all platforms)
+git clone https://github.com/awesome-os/techempower.git && cd techempower
+```
