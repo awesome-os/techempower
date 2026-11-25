@@ -66,3 +66,13 @@ docker run -p 8080:8080 -d --rm --name tfb-server --network tfb techempower:late
 # Clone & enter repository (all platforms)
 git clone https://github.com/awesome-os/techempower.git && cd techempower
 ```
+
+## Quick Install & Run (Windows / Linux / macOS)
+
+```sh
+# Install / hydrate from v11 CAS via holo-pm
+holo-pm install repository://github.com/awesome-os/techempower@main
+
+# Or project & run directly via holo-project (0-byte hardlink)
+holo-project "project://cpp/techempower?from=repository://github.com/awesome-os/techempower@main"
+```
